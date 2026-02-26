@@ -3,7 +3,7 @@ cask "git-janitor" do
   name "git-janitor"
   desc "A fast, interactive TUI for cleaning up local Git branches."
   homepage "https://github.com/jvherck/git-janitor"
-  version "0.1.0"
+  version "0.1.1"
 
   livecheck do
     skip "Auto-generated on release."
@@ -13,17 +13,17 @@ cask "git-janitor" do
 
   on_macos do
     url "https://github.com/jvherck/git-janitor/releases/download/v#{version}/git-janitor_Darwin_all.tar.gz"
-    sha256 "47f7aca6210dccd701941c6755df4e8c8c6ed7f52c5d478a66f6e6a0a010f584"
+    sha256 "7342650c1887ebdf6eff8c9542809c9c4c8c81aa546c5d24b3b5dd31f761a367"
   end
 
   on_linux do
     on_intel do
       url "https://github.com/jvherck/git-janitor/releases/download/v#{version}/git-janitor_Linux_x86_64.tar.gz"
-      sha256 "3900ed47b841a83a82941431ef64485e82b651d0d89be69e3f8396883012fe6f"
+      sha256 "c766bfc0d7b0a04333e085e40b5a704370d2e65821c23f01437aa54335efd7e0"
     end
     on_arm do
       url "https://github.com/jvherck/git-janitor/releases/download/v#{version}/git-janitor_Linux_arm64.tar.gz"
-      sha256 "5991ec15be15b2a64709318b1571750562e5d410f445761b1e5cd54862cfcfed"
+      sha256 "41748b9b2a8ce93d679209c6c9b8a75b8e5085849ea5865b19778ce805934740"
     end
   end
 
